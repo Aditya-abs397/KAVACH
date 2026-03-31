@@ -12,14 +12,6 @@ More specifically, the SCADA data include the water level at all 7 tanks of the 
 
 ![System Map](assets/ctown_map.png)
 
-Graph Annotation:
-
-L_T #: water level of a tank # [meter].​
-S_PU # or S_V # : status of a pump # or a valve # [dmnl]. Binary signal.​
-F_PU # or F_V # : flowrate of a pump # or a valve # [L/s].​
-P_J # : inlet and outlet pressure for a junction # [meter].
-Dataset Details (TL:DR):
-
 There are 43 columns and a 1/0 label column, with 1 meaning that the system is under attack and 0 meaning that the system is in normal operation.
 Training Dataset 1: This dataset was released on November 20 2016, and it was generated from a one-year long simulation. The dataset does not contain any attacks, i.e. all the data pertains to C-Town normal operations.
 Training Dataset 2: This dataset with partially labeled data was released on November 28 2016. The dataset is around 6 months long and contains several attacks, some of which are approximately labeled.
